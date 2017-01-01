@@ -37,7 +37,7 @@ $ brew update
 $ brew install carthage
 ```
 
-Add `NVActivityIndicatorView` in your `Cartfile`.
+Add `KRActivityIndicatorView` in your `Cartfile`.
 
 ```ruby
 github "henryforce/KRActivityIndicatorView"
@@ -47,7 +47,7 @@ Run `carthage` to build the framework and drag the built `KRActivityIndicatorVie
 
 ## Manual
 
-Copy `NVActivityIndicatorView` folder to your project. That's it.
+Copy `KRActivityIndicatorView` folder to your project. That's it.
 
 _**Note:** Make sure that all files in `KRActivityIndicatorView` included in Compile Sources in Build Phases._
 
