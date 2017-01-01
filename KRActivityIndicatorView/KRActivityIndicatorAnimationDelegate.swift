@@ -1,10 +1,12 @@
 //
-//  KRActivityIndicatorView.h
-//  KRActivityIndicatorView
+//  KRActivityIndicatorDelegate.swift
+//  KRActivityIndicatorViewDemo
 //
-//  Created by Henry Serrano on 12/31/16.
-//  Copyright © 2017 Henry Serrano. All rights reserved.
-//
+// The MIT License (MIT)
+
+// Originally written to work in iOS by Vinh Nguyen in 2016
+// Adapted to OSX by Henry Serrano in 2017
+
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
@@ -24,14 +26,8 @@
 // SOFTWARE.
 //
 
-#import <Cocoa/Cocoa.h>
+import Cocoa
 
-//! Project version number for KRActivityIndicatorView.
-FOUNDATION_EXPORT double KRActivityIndicatorViewVersionNumber;
-
-//! Project version string for KRActivityIndicatorView.
-FOUNDATION_EXPORT const unsigned char KRActivityIndicatorViewVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <KRActivityIndicatorView/PublicHeader.h>
-
-
+protocol KRActivityIndicatorAnimationDelegate {
+    func setUpAnimation(in layer:CALayer, size: CGSize, color: NSColor)
+}

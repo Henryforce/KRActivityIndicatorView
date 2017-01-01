@@ -14,9 +14,43 @@
 		3912CC931E181BAB000BF4F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CC921E181BAB000BF4F0 /* ViewController.swift */; };
 		3912CC951E181BAB000BF4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3912CC941E181BAB000BF4F0 /* Assets.xcassets */; };
 		3912CC981E181BAB000BF4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3912CC961E181BAB000BF4F0 /* Main.storyboard */; };
-		3912CC9E1E181BE0000BF4F0 /* KryoStompbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CC9D1E181BE0000BF4F0 /* KryoStompbox.swift */; };
-		3912CCA01E181C0E000BF4F0 /* KEnclosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CC9F1E181C0E000BF4F0 /* KEnclosureView.swift */; };
 		3912CCA11E181CD0000BF4F0 /* KRActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3912CC701E181B60000BF4F0 /* KRActivityIndicatorView.framework */; };
+		3912CCC71E182EDA000BF4F0 /* KRActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCC51E182EDA000BF4F0 /* KRActivityIndicatorShape.swift */; };
+		3912CCC81E182EDA000BF4F0 /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCC61E182EDA000BF4F0 /* KRActivityIndicatorView.swift */; };
+		3912CCCA1E182FF0000BF4F0 /* KRActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCC91E182FF0000BF4F0 /* KRActivityIndicatorAnimationDelegate.swift */; };
+		3912CCCD1E1830C7000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCCC1E1830C7000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		3912CCED1E183377000BF4F0 /* KRActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCCE1E183377000BF4F0 /* KRActivityIndicatorAnimationAudioEqualizer.swift */; };
+		3912CCEE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCCF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallBeat.swift */; };
+		3912CCEF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD01E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotate.swift */; };
+		3912CCF01E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD11E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		3912CCF11E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD21E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		3912CCF21E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD31E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridBeat.swift */; };
+		3912CCF31E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD41E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridPulse.swift */; };
+		3912CCF41E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD51E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulse.swift */; };
+		3912CCF51E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD61E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseRise.swift */; };
+		3912CCF61E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD71E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseSync.swift */; };
+		3912CCF71E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD81E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotate.swift */; };
+		3912CCF81E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCD91E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotateChase.swift */; };
+		3912CCF91E183377000BF4F0 /* KRActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCDA1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScale.swift */; };
+		3912CCFA1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCDB1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		3912CCFB1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCDC1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRipple.swift */; };
+		3912CCFC1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCDD1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		3912CCFD1E183377000BF4F0 /* KRActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCDE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		3912CCFE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCDF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallTrianglePath.swift */; };
+		3912CCFF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE01E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZag.swift */; };
+		3912CD001E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE11E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		3912CD011E183377000BF4F0 /* KRActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE21E183377000BF4F0 /* KRActivityIndicatorAnimationBlank.swift */; };
+		3912CD021E183377000BF4F0 /* KRActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE31E183377000BF4F0 /* KRActivityIndicatorAnimationCubeTransition.swift */; };
+		3912CD031E183377000BF4F0 /* KRActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE41E183377000BF4F0 /* KRActivityIndicatorAnimationLineScale.swift */; };
+		3912CD041E183377000BF4F0 /* KRActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE51E183377000BF4F0 /* KRActivityIndicatorAnimationLineScaleParty.swift */; };
+		3912CD051E183377000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE61E183377000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		3912CD061E183377000BF4F0 /* KRActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE71E183377000BF4F0 /* KRActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		3912CD071E183377000BF4F0 /* KRActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE81E183377000BF4F0 /* KRActivityIndicatorAnimationOrbit.swift */; };
+		3912CD081E183377000BF4F0 /* KRActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCE91E183377000BF4F0 /* KRActivityIndicatorAnimationPacman.swift */; };
+		3912CD091E183377000BF4F0 /* KRActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCEA1E183377000BF4F0 /* KRActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		3912CD0A1E183377000BF4F0 /* KRActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCEB1E183377000BF4F0 /* KRActivityIndicatorAnimationSquareSpin.swift */; };
+		3912CD0B1E183377000BF4F0 /* KRActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912CCEC1E183377000BF4F0 /* KRActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		3912CD0E1E18488C000BF4F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3912CD0D1E18488C000BF4F0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +76,42 @@
 		3912CC941E181BAB000BF4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3912CC971E181BAB000BF4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3912CC991E181BAB000BF4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3912CC9D1E181BE0000BF4F0 /* KryoStompbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryoStompbox.swift; sourceTree = "<group>"; };
-		3912CC9F1E181C0E000BF4F0 /* KEnclosureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KEnclosureView.swift; sourceTree = "<group>"; };
+		3912CCC51E182EDA000BF4F0 /* KRActivityIndicatorShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		3912CCC61E182EDA000BF4F0 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		3912CCC91E182FF0000BF4F0 /* KRActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		3912CCCC1E1830C7000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		3912CCCE1E183377000BF4F0 /* KRActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		3912CCCF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		3912CCD01E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		3912CCD11E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		3912CCD21E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		3912CCD31E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		3912CCD41E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		3912CCD51E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		3912CCD61E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		3912CCD71E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		3912CCD81E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		3912CCD91E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		3912CCDA1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		3912CCDB1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		3912CCDC1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		3912CCDD1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		3912CCDE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		3912CCDF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		3912CCE01E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		3912CCE11E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		3912CCE21E183377000BF4F0 /* KRActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		3912CCE31E183377000BF4F0 /* KRActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		3912CCE41E183377000BF4F0 /* KRActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		3912CCE51E183377000BF4F0 /* KRActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		3912CCE61E183377000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		3912CCE71E183377000BF4F0 /* KRActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		3912CCE81E183377000BF4F0 /* KRActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		3912CCE91E183377000BF4F0 /* KRActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		3912CCEA1E183377000BF4F0 /* KRActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		3912CCEB1E183377000BF4F0 /* KRActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		3912CCEC1E183377000BF4F0 /* KRActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		3912CD0D1E18488C000BF4F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3912CD0E1E18488C000BF4F0 /* QuartzCore.framework in Frameworks */,
 				3912CCA11E181CD0000BF4F0 /* KRActivityIndicatorView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +149,7 @@
 				3912CC7D1E181B60000BF4F0 /* KRActivityIndicatorViewTests */,
 				3912CC8F1E181BAB000BF4F0 /* KRActivityIndicatorViewDemo */,
 				3912CC711E181B60000BF4F0 /* Products */,
+				3912CD0C1E18488C000BF4F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +166,10 @@
 		3912CC721E181B60000BF4F0 /* KRActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				3912CC9D1E181BE0000BF4F0 /* KryoStompbox.swift */,
-				3912CC9F1E181C0E000BF4F0 /* KEnclosureView.swift */,
+				3912CCCB1E18308E000BF4F0 /* Animations */,
+				3912CCC51E182EDA000BF4F0 /* KRActivityIndicatorShape.swift */,
+				3912CCC61E182EDA000BF4F0 /* KRActivityIndicatorView.swift */,
+				3912CCC91E182FF0000BF4F0 /* KRActivityIndicatorAnimationDelegate.swift */,
 				3912CC731E181B60000BF4F0 /* KRActivityIndicatorView.h */,
 				3912CC741E181B60000BF4F0 /* Info.plist */,
 			);
@@ -123,6 +195,53 @@
 				3912CC991E181BAB000BF4F0 /* Info.plist */,
 			);
 			path = KRActivityIndicatorViewDemo;
+			sourceTree = "<group>";
+		};
+		3912CCCB1E18308E000BF4F0 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3912CCCE1E183377000BF4F0 /* KRActivityIndicatorAnimationAudioEqualizer.swift */,
+				3912CCCF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallBeat.swift */,
+				3912CCD01E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotate.swift */,
+				3912CCD11E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				3912CCD21E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				3912CCD31E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridBeat.swift */,
+				3912CCD41E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridPulse.swift */,
+				3912CCD51E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulse.swift */,
+				3912CCD61E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseRise.swift */,
+				3912CCD71E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseSync.swift */,
+				3912CCD81E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotate.swift */,
+				3912CCD91E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotateChase.swift */,
+				3912CCDA1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScale.swift */,
+				3912CCDB1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleMultiple.swift */,
+				3912CCDC1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRipple.swift */,
+				3912CCDD1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				3912CCDE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				3912CCDF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallTrianglePath.swift */,
+				3912CCE01E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZag.swift */,
+				3912CCE11E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				3912CCE21E183377000BF4F0 /* KRActivityIndicatorAnimationBlank.swift */,
+				3912CCE31E183377000BF4F0 /* KRActivityIndicatorAnimationCubeTransition.swift */,
+				3912CCE41E183377000BF4F0 /* KRActivityIndicatorAnimationLineScale.swift */,
+				3912CCE51E183377000BF4F0 /* KRActivityIndicatorAnimationLineScaleParty.swift */,
+				3912CCE61E183377000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				3912CCE71E183377000BF4F0 /* KRActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				3912CCE81E183377000BF4F0 /* KRActivityIndicatorAnimationOrbit.swift */,
+				3912CCE91E183377000BF4F0 /* KRActivityIndicatorAnimationPacman.swift */,
+				3912CCEA1E183377000BF4F0 /* KRActivityIndicatorAnimationSemiCircleSpin.swift */,
+				3912CCEB1E183377000BF4F0 /* KRActivityIndicatorAnimationSquareSpin.swift */,
+				3912CCEC1E183377000BF4F0 /* KRActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				3912CCCC1E1830C7000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOut.swift */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		3912CD0C1E18488C000BF4F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3912CD0D1E18488C000BF4F0 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +387,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3912CC9E1E181BE0000BF4F0 /* KryoStompbox.swift in Sources */,
-				3912CCA01E181C0E000BF4F0 /* KEnclosureView.swift in Sources */,
+				3912CCF21E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				3912CCED1E183377000BF4F0 /* KRActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				3912CCF41E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulse.swift in Sources */,
+				3912CCC71E182EDA000BF4F0 /* KRActivityIndicatorShape.swift in Sources */,
+				3912CD071E183377000BF4F0 /* KRActivityIndicatorAnimationOrbit.swift in Sources */,
+				3912CD051E183377000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				3912CCFF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				3912CD061E183377000BF4F0 /* KRActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				3912CCF81E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				3912CCEE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallBeat.swift in Sources */,
+				3912CCF71E183377000BF4F0 /* KRActivityIndicatorAnimationBallRotate.swift in Sources */,
+				3912CCFA1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				3912CCFB1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				3912CCF31E183377000BF4F0 /* KRActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				3912CCF01E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				3912CD081E183377000BF4F0 /* KRActivityIndicatorAnimationPacman.swift in Sources */,
+				3912CCC81E182EDA000BF4F0 /* KRActivityIndicatorView.swift in Sources */,
+				3912CCCA1E182FF0000BF4F0 /* KRActivityIndicatorAnimationDelegate.swift in Sources */,
+				3912CCF61E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				3912CCEF1E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				3912CD041E183377000BF4F0 /* KRActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				3912CCF91E183377000BF4F0 /* KRActivityIndicatorAnimationBallScale.swift in Sources */,
+				3912CCFE1E183377000BF4F0 /* KRActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				3912CD0A1E183377000BF4F0 /* KRActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				3912CD021E183377000BF4F0 /* KRActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				3912CCF11E183377000BF4F0 /* KRActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				3912CD001E183377000BF4F0 /* KRActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				3912CD091E183377000BF4F0 /* KRActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				3912CD0B1E183377000BF4F0 /* KRActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				3912CCFC1E183377000BF4F0 /* KRActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				3912CD031E183377000BF4F0 /* KRActivityIndicatorAnimationLineScale.swift in Sources */,
+				3912CCCD1E1830C7000BF4F0 /* KRActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				3912CCFD1E183377000BF4F0 /* KRActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				3912CCF51E183377000BF4F0 /* KRActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				3912CD011E183377000BF4F0 /* KRActivityIndicatorAnimationBlank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +676,7 @@
 				3912CC861E181B60000BF4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3912CC871E181B60000BF4F0 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorViewTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +685,7 @@
 				3912CC891E181B60000BF4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3912CC9A1E181BAB000BF4F0 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorViewDemo" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +694,7 @@
 				3912CC9C1E181BAB000BF4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
