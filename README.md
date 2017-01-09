@@ -74,8 +74,6 @@ _**Note:** Set Module to `KRActivityIndicatorView`._
 KRActivityIndicatorView(frame: frame, type: type, color: color, padding: padding)
 ```
 
-_**Note:** Check [DEFAULTS](#defaults) for default values._
-
 ## Control
 
 Start animating.
