@@ -50,7 +50,7 @@ Run `carthage` to build the framework and drag the built `KRActivityIndicatorVie
 
 Copy `KRActivityIndicatorView` folder to your project. That's it.
 
-_**Note:** Make sure that all files in `KRActivityIndicatorView` included in Compile Sources in Build Phases._
+_**Note:** Make sure that all files in `KRActivityIndicatorView` are included in Compile Sources in Build Phases._
 
 # Usage
 
