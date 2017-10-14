@@ -5,7 +5,7 @@
 // The MIT License (MIT)
 
 // Originally written to work in iOS by Vinh Nguyen in 2016
-// Adapted to OSX by Henry Serrano in 2017
+// Adapted to OSX by Henry Serrano in 2017. Updated for Swift 4.
 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
