@@ -5,7 +5,7 @@ KRActivityIndicatorView
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 # Introduction
-`KRActivityIndicatorView` is a collection of awesome loading animations for OSX apps written in Swift 3.0.
+`KRActivityIndicatorView` is a collection of awesome loading animations for OSX apps written in Swift 4
 
 This is a fork from [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView), which is made for iOS. Amazing code made by [Vinh Nguyen](https://github.com/ninjaprox)!
 
@@ -41,7 +41,13 @@ $ brew install carthage
 Add `KRActivityIndicatorView` in your `Cartfile`.
 
 ```ruby
-github "henryforce/KRActivityIndicatorView"
+github "henryforce/KRActivityIndicatorView" >= 1.0.4
+```
+
+If you are using Swift 3, add `KRActivityIndicatorView` in your `Cartfile` like this:
+
+```ruby
+github "henryforce/KRActivityIndicatorView" == 1.0.3
 ```
 
 Run `carthage` to build the framework and drag the built `KRActivityIndicatorView.framework` into your Xcode project.
