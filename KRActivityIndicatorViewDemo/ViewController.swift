@@ -50,7 +50,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        contentView.appearance = NSAppearance.init(named: NSAppearanceNameVibrantDark)
+        contentView.appearance = NSAppearance.init(named: NSAppearance.Name.vibrantDark)
     }
 
     override var representedObject: Any? {

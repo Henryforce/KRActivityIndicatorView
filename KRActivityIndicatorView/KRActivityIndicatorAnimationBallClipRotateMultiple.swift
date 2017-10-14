@@ -65,9 +65,9 @@ class KRActivityIndicatorAnimationBallClipRotateMultiple: KRActivityIndicatorAni
         rotateAnimation.keyTimes = scaleAnimation.keyTimes
         rotateAnimation.timingFunctions = [timingFunction, timingFunction]
         if (!reverse) {
-            rotateAnimation.values = [0, M_PI, 2 * M_PI]
+            rotateAnimation.values = [0, Float.pi, 2 * Float.pi]
         } else {
-            rotateAnimation.values = [0, -M_PI, -2 * M_PI]
+            rotateAnimation.values = [0, -Float.pi, -2 * Float.pi]
         }
         rotateAnimation.duration = duration
         

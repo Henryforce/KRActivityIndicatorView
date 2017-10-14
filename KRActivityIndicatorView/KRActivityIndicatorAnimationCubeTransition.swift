@@ -68,7 +68,7 @@ class KRActivityIndicatorAnimationCubeTransition: KRActivityIndicatorAnimationDe
         
         rotateAnimation.keyTimes = scaleAnimation.keyTimes
         rotateAnimation.timingFunctions = scaleAnimation.timingFunctions
-        rotateAnimation.values = [0, CGFloat(-M_PI_2), CGFloat(-M_PI), CGFloat(-1.5 * M_PI), CGFloat(-2 * M_PI)]
+        rotateAnimation.values = [0, CGFloat(-Float.pi/2), CGFloat(-Float.pi), CGFloat(-1.5 * Float.pi), CGFloat(-2 * Float.pi)]
         rotateAnimation.duration = duration
         
         // Animation

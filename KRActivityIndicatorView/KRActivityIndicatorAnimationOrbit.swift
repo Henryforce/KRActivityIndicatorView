@@ -153,7 +153,7 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
         // Rotate animation
         let rotateAnimation = CAKeyframeAnimation(keyPath: "position")
         let arcBezier = NSBezierPath()
-        arcBezier.appendArc(withCenter: CGPoint(x: layer.bounds.midX, y:layer.bounds.midY), radius: (size.width - satelliteSize) / 2, startAngle: CGFloat(M_PI) * 1.5, endAngle: CGFloat(M_PI) * 1.5 + 4 * CGFloat(M_PI), clockwise: true)
+        arcBezier.appendArc(withCenter: CGPoint(x: layer.bounds.midX, y:layer.bounds.midY), radius: (size.width - satelliteSize) / 2, startAngle: CGFloat(Float.pi) * 1.5, endAngle: CGFloat(Float.pi) * 1.5 + 4 * CGFloat(Float.pi), clockwise: true)
         rotateAnimation.path = CGPathFromNSBezierPath(nsPath: arcBezier)
         /*rotateAnimation.path = NSBezierPath(arcCenter: CGPoint(x: layer.bounds.midX, y: layer.bounds.midY),
                                             radius: (size.width - satelliteSize) / 2,

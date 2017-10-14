@@ -52,7 +52,7 @@ class KRActivityIndicatorAnimationLineSpinFadeLoader: KRActivityIndicatorAnimati
         
         // Draw lines
         for i in 0 ..< 8 {
-            let line = lineAt(angle: CGFloat(M_PI_4 * Double(i)),
+            let line = lineAt(angle: CGFloat(Float.pi/4 * Float(i)),
                               size: lineSize,
                               origin: CGPoint(x: x, y: y),
                               containerSize: size,
@@ -83,7 +83,7 @@ class KRActivityIndicatorAnimationLineSpinFadeLoader: KRActivityIndicatorAnimati
         lineContainer.frame = lineContainerFrame
         line.frame = lineFrame
         lineContainer.addSublayer(line)
-        lineContainer.sublayerTransform = CATransform3DMakeRotation(CGFloat(M_PI_2) + angle, 0, 0, 1)
+        lineContainer.sublayerTransform = CATransform3DMakeRotation(CGFloat(Float.pi/2) + angle, 0, 0, 1)
         
         return lineContainer
     }

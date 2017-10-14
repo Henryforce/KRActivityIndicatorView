@@ -43,7 +43,7 @@ class KRActivityIndicatorAnimationBallClipRotate: KRActivityIndicatorAnimationDe
         let rotateAnimation = CAKeyframeAnimation(keyPath: "transform.rotation.z")
         
         rotateAnimation.keyTimes = scaleAnimation.keyTimes
-        rotateAnimation.values = [0, M_PI, 2 * M_PI]
+        rotateAnimation.values = [0, Float.pi, 2 * Float.pi]
         
         // Animation
         let animation = CAAnimationGroup()

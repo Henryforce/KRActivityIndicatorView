@@ -64,7 +64,7 @@ class KRActivityIndicatorAnimationBallRotateChase: KRActivityIndicatorAnimationD
         positionAnimation.repeatCount = HUGE
         //positionAnimation.path = CGPathFromNSBezierPath(nsPath: NSBezierPath(arcCenter: CGPoint(x: x, y: y), radius: size.width / 2, startAngle: 3 * CGFloat(M_PI) * 0.5, endAngle: 3 * CGFloat(M_PI) * 0.5 + 2 * CGFloat(M_PI), clockwise: true))
         let arcBezier = NSBezierPath()
-        arcBezier.appendArc(withCenter: CGPoint(x: x, y:y), radius: size.width / 2, startAngle: 3 * CGFloat(M_PI) * 0.5, endAngle: 3 * CGFloat(M_PI), clockwise: true)
+        arcBezier.appendArc(withCenter: CGPoint(x: x, y:y), radius: size.width / 2, startAngle: 3 * CGFloat(Float.pi) * 0.5, endAngle: 3 * CGFloat(Float.pi), clockwise: true)
         positionAnimation.path = CGPathFromNSBezierPath(nsPath: arcBezier)
         
         // Aniamtion

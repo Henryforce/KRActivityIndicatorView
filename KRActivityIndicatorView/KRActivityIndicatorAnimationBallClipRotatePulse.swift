@@ -76,7 +76,7 @@ class KRActivityIndicatorAnimationBallClipRotatePulse: KRActivityIndicatorAnimat
         
         rotateAnimation.keyTimes = scaleAnimation.keyTimes
         rotateAnimation.timingFunctions = [timingFunction, timingFunction]
-        rotateAnimation.values = [0, M_PI, 2 * M_PI]
+        rotateAnimation.values = [0, Float.pi, 2 * Float.pi]
         rotateAnimation.duration = duration
         
         // Animation

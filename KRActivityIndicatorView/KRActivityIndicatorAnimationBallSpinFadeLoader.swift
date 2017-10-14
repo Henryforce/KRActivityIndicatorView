@@ -64,7 +64,7 @@ class KRActivityIndicatorAnimationBallSpinFadeLoader: KRActivityIndicatorAnimati
         
         // Draw circles
         for i in 0 ..< 8 {
-            let circle = circleAt(angle: CGFloat(M_PI_4 * Double(i)),
+            let circle = circleAt(angle: CGFloat(Float.pi/4 * Float(i)),
                                   size: circleSize,
                                   origin: CGPoint(x: x, y: y),
                                   containerSize: size,

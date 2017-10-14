@@ -94,8 +94,8 @@ enum KRActivityIndicatorShape {
                            endAngle:-45,
                            clockwise:false)
             path.move(
-                to: CGPoint(x: size.width / 2 - size.width / 2 * CGFloat(cos(M_PI_4)),
-                            y: size.height / 2 + size.height / 2 * CGFloat(sin(M_PI_4)))
+                to: CGPoint(x: size.width / 2 - size.width / 2 * CGFloat(cos(Float.pi/4)),
+                            y: size.height / 2 + size.height / 2 * CGFloat(sin(Float.pi/4)))
             )
             /*path.appendArc(withCenter: CGPoint(x: size.width / 2, y: size.height / 2),
                         radius:size.width / 2,
@@ -122,8 +122,8 @@ enum KRActivityIndicatorShape {
                            endAngle:225,
                            clockwise:false)
             path.move(
-                to: CGPoint(x: size.width / 2 + size.width / 2 * CGFloat(cos(M_PI_4)),
-                            y: size.height / 2 - size.height / 2 * CGFloat(sin(M_PI_4)))
+                to: CGPoint(x: size.width / 2 + size.width / 2 * CGFloat(cos(Float.pi/4)),
+                            y: size.height / 2 - size.height / 2 * CGFloat(sin(Float.pi/4)))
             )
             /*path.appendArc(withCenter: CGPoint(x: size.width / 2, y: size.height / 2),
                         radius:size.width / 2,

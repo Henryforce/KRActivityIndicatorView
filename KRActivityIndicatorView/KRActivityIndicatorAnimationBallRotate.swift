@@ -48,7 +48,7 @@ class KRActivityIndicatorAnimationBallRotate: KRActivityIndicatorAnimationDelega
         
         rotateAnimation.keyTimes = [0, 0.5, 1]
         rotateAnimation.timingFunctions = [timingFunction, timingFunction]
-        rotateAnimation.values = [0, M_PI, 2 * M_PI]
+        rotateAnimation.values = [0, Float.pi, 2 * Float.pi]
         rotateAnimation.duration = duration
         
         // Animation
