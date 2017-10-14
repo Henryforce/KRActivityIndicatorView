@@ -41,13 +41,13 @@ $ brew install carthage
 Add `KRActivityIndicatorView` in your `Cartfile`.
 
 ```ruby
-github "henryforce/KRActivityIndicatorView" >= 1.0.4
+github "henryforce/KRActivityIndicatorView" >= 1.0.5
 ```
 
 If you are using Swift 3, add `KRActivityIndicatorView` in your `Cartfile` like this:
 
 ```ruby
-github "henryforce/KRActivityIndicatorView" == 1.0.3
+github "henryforce/KRActivityIndicatorView" == 1.0.4
 ```
 
 Run `carthage` to build the framework and drag the built `KRActivityIndicatorView.framework` into your Xcode project.
