@@ -37,7 +37,7 @@ class KRActivityIndicatorAnimationBallTrianglePath: KRActivityIndicatorAnimation
         let x = (layer.bounds.size.width - size.width) / 2
         let y = (layer.bounds.size.height - size.height) / 2
         let duration: CFTimeInterval = 2
-        let timingFunction = CAMediaTimingFunction(name:kCAMediaTimingFunctionEaseInEaseOut)
+        let timingFunction = CAMediaTimingFunction(name:CAMediaTimingFunctionName.easeInEaseOut)
         
         // Animation
         let animation = CAKeyframeAnimation(keyPath:"transform")

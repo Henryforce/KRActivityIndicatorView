@@ -39,7 +39,7 @@ class KRActivityIndicatorAnimationBallPulseSync: KRActivityIndicatorAnimationDel
         let duration: CFTimeInterval = 0.6
         let beginTime = CACurrentMediaTime()
         let beginTimes: [CFTimeInterval] = [0.07, 0.14, 0.21]
-        let timingFunciton = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        let timingFunciton = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         
         // Animation
         let animation = CAKeyframeAnimation(keyPath: "transform.translation.y")

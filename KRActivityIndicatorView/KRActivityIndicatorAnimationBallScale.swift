@@ -51,7 +51,7 @@ class KRActivityIndicatorAnimationBallScale: KRActivityIndicatorAnimationDelegat
         let animation = CAAnimationGroup()
         
         animation.animations = [scaleAnimation, opacityAnimation];
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         animation.duration = duration
         animation.repeatCount = HUGE
         animation.isRemovedOnCompletion = false

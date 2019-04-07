@@ -381,7 +381,7 @@ public final class KRActivityIndicatorView: NSView {
     @IBInspectable public var padding: CGFloat = KRActivityIndicatorView.DEFAULT_PADDING
     
     /// Current status of animation, read-only.
-    @available(*, deprecated: 3.1)
+    @available(*, deprecated)
     public var animating: Bool { return isAnimating }
     
     /// Current status of animation, read-only.

@@ -51,7 +51,7 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
         let scaleAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
         
         scaleAnimation.keyTimes = [0, 0.45, 0.45, 1]
-        scaleAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        scaleAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         scaleAnimation.values = [0, 0, 1.3, 2]
         scaleAnimation.duration = duration
         
@@ -60,7 +60,7 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
         let timingFunction = CAMediaTimingFunction(controlPoints: 0.19, 1, 0.22, 1)
         
         opacityAnimation.keyTimes = [0, 0.45, 1]
-        scaleAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear), timingFunction]
+        scaleAnimation.timingFunctions = [CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear), timingFunction]
         opacityAnimation.values = [0.8, 0.8, 0]
         opacityAnimation.duration = duration
         
@@ -89,7 +89,7 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
         let scaleAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
         
         scaleAnimation.keyTimes = [0, 0.55, 0.55, 1]
-        scaleAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        scaleAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         scaleAnimation.values = [0, 0, 1.3, 2.1]
         scaleAnimation.duration = duration
         
@@ -98,7 +98,7 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
         let timingFunction = CAMediaTimingFunction(controlPoints: 0.19, 1, 0.22, 1)
         
         opacityAnimation.keyTimes = [0, 0.55, 0.65, 1]
-        scaleAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear), timingFunction]
+        scaleAnimation.timingFunctions = [CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear), timingFunction]
         opacityAnimation.values = [0.7, 0.7, 0, 0]
         opacityAnimation.duration = duration
         
@@ -125,7 +125,7 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
     func coreInLayer(_ layer: CALayer, size: CGSize, color: NSColor) {
         let inTimingFunction = CAMediaTimingFunction(controlPoints: 0.7, 0, 1, 0.5)
         let outTimingFunction = CAMediaTimingFunction(controlPoints: 0, 0.7, 0.5, 1)
-        let standByTimingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        let standByTimingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         
         // Scale animation
         let scaleAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
@@ -179,12 +179,13 @@ class KRActivityIndicatorAnimationOrbit: KRActivityIndicatorAnimationDelegate {
         for i in 0 ..< nsPath.elementCount {
             let type = nsPath.element(at: i, associatedPoints: &points)
             switch type {
-            case .moveToBezierPathElement: path.move(to: CGPoint(x: points[0].x, y: points[0].y) )
-            case .lineToBezierPathElement: path.addLine(to: CGPoint(x: points[0].x, y: points[0].y) )
-            case .curveToBezierPathElement: path.addCurve(      to: CGPoint(x: points[2].x, y: points[2].y),
+            case .moveTo: path.move(to: CGPoint(x: points[0].x, y: points[0].y) )
+            case .lineTo: path.addLine(to: CGPoint(x: points[0].x, y: points[0].y) )
+            case .curveTo: path.addCurve(      to: CGPoint(x: points[2].x, y: points[2].y),
                                                                 control1: CGPoint(x: points[0].x, y: points[0].y),
                                                                 control2: CGPoint(x: points[1].x, y: points[1].y) )
-            case .closePathBezierPathElement: path.closeSubpath()
+            case .closePath: path.closeSubpath()
+            @unknown default: break
             }
         }
         return path
